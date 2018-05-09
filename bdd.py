@@ -1,0 +1,6 @@
+fichier = open("data.txt","a")
+fichier.write("Bonjoir les gens \n")
+print (fichier)
+choix = input()
+fichier.write(choix)
+fichier.close()
